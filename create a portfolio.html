@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="#home">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-collapse navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header id="home" class="hero-section d-flex align-items-center bg-light text-dark">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3">Welcome to My World</h1>
+            <p class="lead mb-4 text-muted">I am a kuchipudi dancer.</p>
+        </div>
+    </header>
+
+    <section id="about" class="about-section py-5">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded shadow" alt="Working on laptop">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-3 text-primary">About Me</h2>
+                    <p class="lead">I have been learning dance since the aage of 4.</p>
+                    <p class="text-muted">I love dance.It is my favorate hobbie.</p>                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
